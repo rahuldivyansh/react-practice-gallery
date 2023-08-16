@@ -1,0 +1,25 @@
+ #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the full viewport height */
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+button{
+  margin: 10px 10px;
+}
+.gallery{
+  flex: 1;
+}
+footer{
+  color: white;
+  padding: 20px;
+}
